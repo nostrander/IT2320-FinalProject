@@ -1,0 +1,109 @@
+﻿header {
+    margin-top: 3%;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body {
+    width: 520px;
+    margin: auto;
+    font-family: Calibri;
+}
+
+.home.p {
+    font-size: 12px;
+    font-family: Calibri;
+    font-style: italic;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.login{
+    width: 100%;
+    float: left;
+}
+
+.account{
+    width:100%;
+    float: right;
+    overflow: hidden;
+}
+
+form{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#oldUser{
+    display: block;
+}
+
+#oldPass{
+    margin-bottom: 2%;
+    display: block;
+}
+
+#newUser{
+    display:block;
+}
+
+#newPass{
+    display: block;
+}
+#email{
+    display: block;
+}
+
+#reMail{
+    margin-bottom: 2%;
+    display: block;
+}
+#update{
+    position: relative;
+    display: none;
+}
+#acctName{
+    display: block;
+    margin-bottom: 5%;
+}
+#emailAdd{
+    display: inline;
+}
+#updateMail{
+    display: block;
+}
+#gpa{
+    display:inline;
+}
+#updateGPA{
+    display: block;
+}
+#acctName{
+    display: block;
+    margin-bottom: 3%;
+}
+#elementName{
+    display: block;
+}
+#elementType{
+    display: block;
+}
+#addElement{
+    display: block;
+    float: left;
+}
+
+footer {
+     margin-top: 3%;
+    font-family: Cambria;
+    font-size: 12px;
+}

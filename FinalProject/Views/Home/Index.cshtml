@@ -1,0 +1,78 @@
+﻿@model FinalProject.Models.HomeViewModel
+
+<html>
+
+<head>
+    <link href="~/Styles/Home.css" rel="stylesheet" />
+    <title>Final Project</title>
+</head>
+
+<body>
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui.min.js"></script>
+    <script src="~/Scripts/Home.js"></script>
+
+    <div class="home">
+
+        <header>Welcome to Cuyahoga Community College Student Services Online</header>
+        <br />
+        <p>
+            Cuyahoga Community College recognizes students' rights to access personl and academic records
+            in accordance with the Family Educational Rights and Privacy Act of 1974 (FERPA) as amended by
+            Public Law 93-568.
+        </p>
+        <br />
+        <div class="container">
+            <!-- Login Form -->
+            <div class="login">
+                <form class="form1">
+                    <p>
+                        Already have an account with us?
+                        Returning users may log in by entering
+                        their site username and password.
+                    </p>
+                    <div class="inputExisting">
+                        Username:<input type="text" name="oldUser" id="oldUser" />
+                        Password:<input type="password" name="oldPass" id="oldPass" />
+                        <input type="button" value="Login" id="login" />
+                    </div>
+                    <hr />
+                    <p>
+                        New users, please create a
+                        new account by providing us
+                        with some basic information.
+                    </p>
+                    <div class="inputNew">
+                        Username:<input type="text" name="newUser" id="newUser" />
+                        Password:<input type="password" name="newPass" id="newPass" />
+                        E-Mail Address:<input type="text" name="email" id="email" />
+                        Repeat E-Mail Address:<input type="reMail" id="reMail" />
+                        <input type="button" value="Create Account" id="create" />
+                    </div>
+                </form>
+            </div>
+            <!-- Account Form -->
+            <div class="account">
+                <form class="form2">
+                    <div class="update">
+                        Account Name:<input type="text" label="Account Name" name="acctName" id="acctName" />
+                        E-Mail Address:<input type="text" name="emailAdd" id="emailAdd" />
+                        <input type="submit" value="Update" id="updateMail" />
+                        CurrentGPA:<input type="text" name="gpa" id="gpa" />
+                        <input type="submit" value="Update" id="updateGPA" />
+                        <hr />
+                        ElementName:<input type="text" name="elementName" id="elementName" />
+                        ElementValue:<input type="text" name="elementType" id="elementType" />
+                        <input type="submit" value="Add" id="addElement" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>Cuyahoga Community College  <br/>
+        700 Carnegie Avenue <br />
+        Cleveland, Ohio 44115
+    </footer>
+</body>
+
+</html>
